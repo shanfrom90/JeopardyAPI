@@ -1,0 +1,30 @@
+{
+  "name": "m5-mastery-public-api-shanfrom90",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-cli serve --mode development --content-base docs/ --open Chrome"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2021-Spring-Cohort/m5-mastery-public-api-shanfrom90.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2021-Spring-Cohort/m5-mastery-public-api-shanfrom90/issues"
+  },
+  "homepage": "https://github.com/2021-Spring-Cohort/m5-mastery-public-api-shanfrom90#readme",
+  "devDependencies": {
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
